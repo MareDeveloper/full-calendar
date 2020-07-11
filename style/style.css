@@ -1,0 +1,55 @@
+
+
+#calendar 
+{
+    padding: 50px 300px !important;
+    position: relative;
+
+}
+.timeline 
+{
+    position: absolute;
+    left: 59px;
+    border: none;
+    border-top: 1px solid red;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    z-index: 999;
+}
+
+/* button for active and inactive */
+.button 
+{
+    background-color: rgb(228, 31, 31);
+}
+
+/* delete button in employees */
+#table-container .delete_btn 
+{
+    position: relative;
+    left: 50px;
+}
+
+/* Form style */
+.container form button 
+{
+    position: relative;
+    top: 20px;
+    left: 80px;
+}
+.container form #text 
+{
+    position: relative;
+    left: 40px;
+    top: 10px;
+}  
+body .hasDatepicker
+{
+    top: 90px !important;
+    position: absolute;
+    z-index: 1000;
+    left: 200px;
+
+}
+
